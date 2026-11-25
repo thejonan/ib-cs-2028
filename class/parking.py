@@ -1,6 +1,6 @@
 def park_car(parking: list, plate: str):
-    pass
-
+    
+    parking.append(plate)
 
 def unpark_car(parking: list, plate: str) -> bool:
     return False
